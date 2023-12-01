@@ -62,11 +62,11 @@
     `git status`
 
     `git commit -m "<escreva uma mensagem>"`
+    
+    `git push`
 
      no Github, as branch s aparecerão assim:
 
     <img src="img/imgBranch.png">
 
     * se necessário retorna para branch `main` pelo terminal do Git, digite  `git ckeckout main`
-    
-    
