@@ -67,5 +67,6 @@
 
     <img src="img/imgBranch.png">
 
-    * se necessário retorna para branch `main` pelo terminal do Git, digite  `git ckeckout main
- 
+    * se necessário retorna para branch `main` pelo terminal do Git, digite  `git ckeckout main`
+    
+    
