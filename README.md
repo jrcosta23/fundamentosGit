@@ -1,7 +1,8 @@
 # tutorial de Git e Github na prática 
 
-## instalação do Git
+
 * [link com downloads](https://git-scm.com/downloads)
+  
 
 ## versionamento local do projeto
 * acesse a pasta no qual o projeto está armazenda
@@ -70,3 +71,18 @@
     <img src="img/imgBranch.png">
 
     * se necessário retorna para branch `main` pelo terminal do Git, digite  `git ckeckout main`
+    * se necessário retorna para branch `main` pelo terminal do Git, digite `git ckeckout main`
+
+    ## merge 
+
+    * ao retornar para a branch `main`, digite `git merge <nome da nova branch>`
+    (no exemplo acima, seriaa branch chamada novoBotão), desse modo possível **unificar a 
+    branch alternativa e a branch principal em uma só**
+
+    * Desse modo, tudo o que tinha de alteração na branch novoBotão (por exemplo) se 
+      juntará a branch `main`
+
+    * para finalizar digite `git push origin main` e suba os arquivos para a branch
+     pincipal do repositório remoto
+     
+     
