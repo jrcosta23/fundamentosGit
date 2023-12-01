@@ -62,10 +62,25 @@
     `git status`
 
     `git commit -m "<escreva uma mensagem>"`
+    
+    `git push`
 
      no Github, as branch s aparecerão assim:
 
     <img src="img/imgBranch.png">
 
-    * se necessário retorna para branch `main` pelo terminal do Git, digite  `git ckeckout main
- 
+    * se necessário retorna para branch `main` pelo terminal do Git, digite `git ckeckout main`
+
+    ## merge 
+
+    * ao retornar para a branch `main`, digite `git merge <nome da nova branch>`
+    (no exemplo acima, seriaa branch chamada novoBotão), desse modo possível **unificar a 
+    branch alternativa e a branch principal em uma só**
+
+    * Desse modo, tudo o que tinha de alteração na branch novoBotão (por exemplo) se 
+      juntará a branch `main`
+
+    * para finalizar digite `git push origin main` e suba os arquivos para a branch
+     pincipal do repositório remoto
+     
+     
